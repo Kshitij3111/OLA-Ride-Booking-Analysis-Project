@@ -256,7 +256,7 @@ SELECT
 
 ---
 
-## 🎯 Expected Outcomes
+## 🎯 Outcomes
 
 The following outcomes are to emerge from this project:
 
