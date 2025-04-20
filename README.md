@@ -114,20 +114,109 @@ To complement the Power BI dashboards, the following **SQL queries** will be exe
 - **Retrieve all successful bookings**: Fetch all successfully completed bookings to analyze ride performance.
 
 ```sql
-CREATE VIEW Successful_Bookings AS
 SELECT * FROM bookings 
 WHERE Booking_Status = 'Success';
 ```
   
 - **Find average ride distance per vehicle type**: Calculate the average distance covered by each vehicle type to analyze travel patterns.
+
+```sql
+SELECT 
+    Vehicle_Type, AVG(Ride_Distance) AS avg_distance
+FROM
+    bookings
+GROUP BY Vehicle_type;
+```
+
 - **Count total rides canceled by customers**: Count cancellations made by customers to understand cancellation trends.
+
+```sql
+SELECT 
+        COUNT(*)
+    FROM
+        bookings
+    WHERE
+        Booking_Status = 'Canceled by Customer';
+```
+
 - **Identify top 5 customers by number of rides**: Identify top customers by the number of rides booked.
+
+```sql
+SELECT 
+        Customer_ID, COUNT(Booking_Status) AS total_rides
+    FROM
+        bookings
+    GROUP BY Customer_ID
+    ORDER BY total_rides DESC
+    LIMIT 5;
+```
+
 - **Rides canceled by drivers for personal reasons**: Count cancellations made by drivers due to personal reasons, aiding fleet management.
+
+```sql
+SELECT 
+        COUNT(*) AS total_rides_cancelled
+    FROM
+        bookings
+    WHERE
+        Canceled_Rides_by_Driver = 'Personal & Car related issue';
+```
+
 - **Max/Min driver ratings for Prime Sedan**: Find the highest and lowest driver ratings for "Prime Sedan" to assess service consistency.
+
+```sql
+SELECT 
+        MAX(Driver_Ratings) AS max_rating,
+        MIN(Driver_Ratings) AS min_rating
+    FROM
+        bookings
+    WHERE
+        Vehicle_Type = 'Prime Sedan' and
+        Driver_Ratings <> 'NA';
+```
+
 - **Rides where payment was made using UPI**: Identify rides paid via UPI, showing payment preferences.
+
+```sql
+SELECT 
+        *
+    FROM
+        bookings
+    WHERE
+        Payment_Method = 'UPI';
+```
+
 - **Average customer rating per vehicle type**: Calculate the average customer rating for each vehicle type to gauge customer satisfaction.
+
+```sql
+SELECT 
+        Vehicle_Type, AVG(Customer_Rating) AS avg_customer_rating
+    FROM
+        bookings
+    GROUP BY Vehicle_Type;
+```
+
 - **Total booking value for successful rides**: Sum up the total fare from successful bookings to calculate overall revenue.
+
+```sql
+SELECT 
+        SUM(Booking_Value) AS total_successful_ride_value
+    FROM
+        bookings
+    WHERE
+        Booking_Status = 'Success';
+```
+
 - **Incomplete rides with reason**: Identify incomplete rides and their reasons to understand issues causing ride failures.
+
+```sql
+SELECT 
+        Booking_ID, Incomplete_Rides_Reason
+    FROM
+        bookings
+    WHERE
+        Incomplete_Rides = 'Yes';
+```
 
 ---
 
