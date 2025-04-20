@@ -258,12 +258,18 @@ SELECT
 
 ## 🎯 Expected Outcomes
 
-By the end of this project, the following outcomes are expected:
+The following outcomes are to emerge from this project:
 
-- **Identify key booking patterns** and revenue drivers.
-- **Pinpoint high-performing vehicle types** and regions.
-- **Reduce cancellations** through reason analysis and insights.
-- **Analyze ride and rating distributions** to gauge satisfaction levels.
-- **Discover actionable insights** to drive business growth and improve operational efficiency.
+- **Increased Insight into Booking Patterns**: We expect to uncover key patterns in booking volumes, particularly during weekends and match days, which can help in optimizing operations during peak times.
+  
+- **Understanding Revenue Drivers**: The analysis will highlight which vehicle types and payment methods contribute most to revenue, allowing for targeted strategies to boost profitability.
+  
+- **Optimization of Fleet Performance**: The performance of different vehicle types (e.g., Auto, Prime Plus, Bike) will be assessed, leading to potential fleet reallocation and better resource utilization for high-demand areas.
+
+- **Identification of Cancellation Trends**: We will gain a deeper understanding of both customer- and driver-initiated cancellations, potentially informing new policies or initiatives to reduce cancellations and improve service consistency.
+
+- **Improved Customer and Driver Satisfaction**: Analyzing the average customer and driver ratings will help identify areas of improvement, such as service quality or vehicle conditions, ultimately enhancing satisfaction for both parties.
+
+- **Informed Decision-Making**: The insights gathered from the dashboards and SQL analysis will provide data-driven recommendations for operational improvements, pricing strategies, and marketing tactics to foster business growth and enhance customer loyalty.
 
 ---
