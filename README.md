@@ -25,7 +25,7 @@ This project is designed to assist decision-makers in identifying patterns, opti
 
 ## 📊 Dashboards Overview
 
-### 1. ** 📊 Overall Dashboard**
+### 1. **📊 Overall Dashboard**
 
 **🎯 Purpose**: The Overall Dashboard offers a comprehensive view of the entire ride booking activity, providing insights into total bookings, booking value, and booking status breakdowns. It enables stakeholders to monitor trends and performance at a high level.
 
