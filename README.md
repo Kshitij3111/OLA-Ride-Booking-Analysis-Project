@@ -27,8 +27,7 @@ This project is designed to assist decision-makers in identifying patterns, opti
 
 ### 1. **📊 Overall Dashboard**
 
-![Screenshot (22)](https://github.com/user-attachments/assets/154d9639-8cd6-4bcd-b28b-918740ede402)
-
+![Screenshot (22)](https://github.com/user-attachments/assets/483bb8e8-678d-4c1a-aa69-af34d20096d7)
 
 **🎯 Purpose**: The Overall Dashboard offers a comprehensive view of the entire ride booking activity, providing insights into total bookings, booking value, and booking status breakdowns. It enables stakeholders to monitor trends and performance at a high level.
 
@@ -52,8 +51,7 @@ This project is designed to assist decision-makers in identifying patterns, opti
 
 ### 2. **📊 Vehicle Type Dashboard**
 
-![Screenshot (23)](https://github.com/user-attachments/assets/c71ce90e-8325-4096-b2b0-104301a11ef6)
-
+![Screenshot (23)](https://github.com/user-attachments/assets/46e8209b-02ec-4647-b9a3-cdbcb71af8a0)
 
 **🎯 Purpose**: The Vehicle Type Dashboard provides insights into the performance of various vehicle types. It helps understand the contribution of each vehicle category to the overall ride booking activity, focusing on total booking value, successful bookings, and travel metrics.
 
@@ -68,8 +66,7 @@ This project is designed to assist decision-makers in identifying patterns, opti
 
 ### 3. **📊 Revenue Dashboard**
 
-![Screenshot (24)](https://github.com/user-attachments/assets/43bb1446-63d0-4bf7-8cf9-618fd15a4307)
-
+![Screenshot (24)](https://github.com/user-attachments/assets/9d77b90a-9480-4af5-8687-da84e3430190)
 
 **🎯 Purpose**: The Revenue Dashboard focuses on the financial aspect of ride bookings by analyzing revenue distribution across payment methods and highlighting the highest-value customers.
 
@@ -81,8 +78,7 @@ This project is designed to assist decision-makers in identifying patterns, opti
 
 ### 4. **📊 Cancellation Dashboard**
 
-![Screenshot (25)](https://github.com/user-attachments/assets/7af9dbd1-757f-4110-8d43-7235ea0449f0)
-
+![Screenshot (25)](https://github.com/user-attachments/assets/bde53e0a-ab82-4608-9a03-5d9b28f2807a)
 
 **🎯 Purpose**: The Cancellation Dashboard provides insights into ride cancellations, focusing on customer-initiated and driver-initiated cancellations. It helps understand cancellation patterns and areas for improvement.
 
@@ -96,8 +92,7 @@ This project is designed to assist decision-makers in identifying patterns, opti
 
 ### 5. **📊 Ratings Dashboard**
 
-![Screenshot (26)](https://github.com/user-attachments/assets/8198b3c7-49bb-49d7-ab21-1b6daa67d963)
-
+![Screenshot (26)](https://github.com/user-attachments/assets/5b114ff1-76ba-4cb2-a68e-db2cdf367986)
 
 **🎯 Purpose**: The Ratings Dashboard evaluates driver and customer performance based on ratings. It offers insights into overall satisfaction levels for both parties.
 
